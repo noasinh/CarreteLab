@@ -1,0 +1,119 @@
+﻿body {
+    background-color: #111111;
+    text-align: center;
+}
+
+/*INTRO*/
+
+
+#Logo {
+    height: auto;
+    width: clamp(20vw, 50vw, 400px);
+    margin-top: clamp(20px, 10vw, 100px);
+}
+
+#Fondo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    z-index: -2;
+   
+}
+
+#Capa_Negra {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    z-index: -1;
+    opacity: 80%;
+}
+
+
+h1, h2, h3, h4, H5, h6{
+    color: aliceblue;
+    font-family:Bahnschrift;
+    font-weight: lighter;
+}
+
+h2 {
+    font-family: 'Arial Rounded MT';
+    font-size: clamp(10px, 25vw, 40px);
+    font-weight: bold;
+    text-align: left;
+    margin-left: clamp(10px, 10vw, 90px);
+    margin-right: clamp(10px, 10vw, 90px);
+}
+
+h3 {
+    font-weight: lighter;
+    font-family: Bahnschrift;
+    font-size: clamp(10px, 25px, 50px);
+    margin-top: clamp(5px, 10px, 15px);
+    margin-bottom: clamp(50px, 80px, 100px);
+}
+
+h4 {
+    font-size: clamp(12px, 18px, 20px);
+    font-weight:bold;
+    font-family:'Arial Rounded MT';
+}
+
+h5 {
+    font-size: clamp(12px, 18px, 24px);
+    font-family: 'Arial';
+    text-align: center;
+    margin-inline: 3px;
+    font-weight: lighter;
+}
+
+h6 {
+    font-size: clamp(12px, 18px, 24px);
+    font-family: 'Arial';
+    text-align: justify;
+    margin-inline: 10vw;
+    margin-block-end: 10px;
+    font-weight: lighter;
+}
+
+#ImagenImpresión3D, #ImagenLaser, #ImagenDiseño3D {
+    box-sizing: border-box;
+    max-width: clamp(300px, 20vw, 33vw);
+    height: auto;
+    justify-content: space-evenly;
+    background-color: transparent;
+    cursor: pointer;
+    
+}
+
+.card {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100vw;
+    justify-content: space-evenly;
+}
+
+.columna1, .columna2, .columna3 {
+    width: clamp(300px, 30vw, 634px);
+    justify-content: space-evenly;
+}
+
+
+
+    .galeria {
+        display: inline-flex;
+        flex-wrap: wrap;
+        width: 65vw;
+        margin-top: clamp(10px, 30px,35px);
+        justify-content: space-evenly;
+    }
+
+
+#galeria_1, #galeria_2, #galeria_3, #galeria_4 {
+    width: clamp(300px, 30vw, 50vw);
+    justify-content: space-evenly;
+    padding: 10px;
+    flex: 1 1 200px;
+}
+

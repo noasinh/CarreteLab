@@ -1,0 +1,36 @@
+﻿body {
+    background-color: #333333;
+}
+
+#sobrefoto {
+    height: 50vw;
+    width: auto;
+}
+
+
+
+h1, h2, h3, h4 {
+    color: aliceblue;
+}
+
+h3 {
+    font-weight: lighter;
+    font-family: Bahnschrift;
+}
+
+#ImagenImpresión3D, #ImagenLaser, #ImagenDiseño3D {
+    box-sizing: border-box;
+    box-shadow: 0px, 15px, 25px, rgba(0, 0, 0, 0.50);
+    max-width: 20vw;
+    min-width: 380px;
+    height: auto;
+    margin: 0;
+    justify-content: center;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.secciones {
+    display: flex;
+
+}
